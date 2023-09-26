@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Style.look</title>
+    <link rel="stylesheet" href="./lib/css.bootstrap.min.css">
+    <style>
+        .container{
+            padding-top: 24px;
+        }
+        .carousel-inner img {
+        height: 550px;
+        }
+        .card {
+            margin-top: 16px;
+        }
+        .container-flex{
+            display: flex;
+        }  
+    </style>
+</head>
+<body>
+    <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img src="./img/imagem1.jpg" class="d-block w-100" alt="Imagem 1">
+                    <div class="carousel-caption">
+                        <h2>Blusa Floral </h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="img/imagem2.jpg" class="d-block w-100" alt="Imagem 2">
+                    <div class="carousel-caption">
+                        <h2>Blazer Rosa </h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img src="img/imagem3.jpg" class="d-block w-100" alt="Imagem 3">
+                    <div class="carousel-caption">
+                        <h2>Jaqueta Jeans </h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+
+    <div class="container mt-4">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="img/imagem4.jpg" class="card-img-top" alt="imagem 4">
+                    <div class="card-body">
+                        <h5 class="card-title">Blazer Rosa</h5>
+                        <p class="card-text">É possível usar blazer no calor, e a prova disso é o visual acima! Combine-o com peças mais frescas - e básicas! - como uma bermuda de tecido natural e um top. Aqui, o sapato boneca deixa a produção mais fashionista.</p>
+                        <a href="https://stealthelook.com.br/9-pecas-9-looks-basicos-e-estilosos-para-usar-no-dia-a-dia/">Leia mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="img/imagem5.jpg" class="card-img-top" alt="imagem 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Blazer Off White</h5>
+                        <p class="card-text">É possível usar blazer no calor, e a prova disso é o visual acima! Combine-o com peças mais frescas - e básicas! - como uma bermuda de tecido natural e um top. Aqui, o sapato boneca deixa a produção mais fashionista.</p>
+                        <a href="https://stealthelook.com.br/9-pecas-9-looks-basicos-e-estilosos-para-usar-no-dia-a-dia/">Leia mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="img/imagem6.jpg" class="card-img-top" alt="imagem 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Jaqueta Jeans</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, excepturi! Tempora quisquam ea, cupiditate dolorum quidem quas est, obcaecati amet, et doloribus dolorem voluptas dignissimos assumenda quis itaque pariatur voluptatum?</p>
+                        <a href="https://stealthelook.com.br/9-pecas-9-looks-basicos-e-estilosos-para-usar-no-dia-a-dia/">Leia mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="img/imagem7.jpg" class="card-img-top" alt="imagem 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Blusa Rosa</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident repudiandae quibusdam aliquid omnis, vero dolore. Libero unde accusamus vel eveniet nam ea obcaecati. Distinctio quaerat magnam dolor, repellat deserunt facere?</p>
+                        <a href="https://stealthelook.com.br/9-pecas-9-looks-basicos-e-estilosos-para-usar-no-dia-a-dia/">Leia mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="img/imagem8.jpg" class="card-img-top" alt="imagem 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Macaquinho Amarelo</h5>
+                        <p class="card-text">Se estiver muito quente e você não estiver afim de usar uma camisa por cima, então vá fundo apenas no macacão. Aqui, você também pode adicionar acessórios modernos, como uma bolsa statement ou óculos fashionista.</p>
+                        <a href="https://stealthelook.com.br/9-pecas-9-looks-basicos-e-estilosos-para-usar-no-dia-a-dia/">Leia mais</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col mb-4">
+                <div class="card">
+                    <img src="img/imagem9.jpg" class="card-img-top" alt="imagem 5">
+                    <div class="card-body">
+                        <h5 class="card-title">Camisa Xadrez</h5>
+                        <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium deserunt ipsum ducimus. Nam, est. Saepe, possimus. Saepe, ratione voluptates maiores totam id accusamus nulla esse quos quae impedit iure sit!</p>
+                        <a href="https://stealthelook.com.br/9-pecas-9-looks-basicos-e-estilosos-para-usar-no-dia-a-dia/">Leia mais</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container container-flex">
+            <p>
+                2023 &copy; Style.look - Todos os direitos reservados
+            </p>
+    </footer>
+
+    <!-- Inclua os arquivos JavaScript do Bootstrap no final do seu corpo -->
+    <script src="./lib/js.bootstrap.bundle.min.js"></script>
+</body>
+</html>
